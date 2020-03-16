@@ -7,10 +7,9 @@ import { faEnvelope ,faPhoneSquareAlt ,faMapMarkerAlt, faMoneyCheckAlt } from '@
 
 const MainFriend = (props) => {
     
-
     return (
         <div>
-            <div className="selectedFriend">
+                <div className="selectedFriend">
                     <div className="friend_img"> <i class="fas fa-money-check-alt"></i>
                         <img src={member} alt=""/>
                     </div>

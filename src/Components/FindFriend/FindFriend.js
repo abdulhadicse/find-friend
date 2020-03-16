@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
 import './FindFriend.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope ,faPhoneSquareAlt ,faMapMarkerAlt, faMoneyCheckAlt } from '@fortawesome/free-solid-svg-icons'
 import Friends from '../Friends/Friends';
 import fakeData from '../../fakeData';
-import MainFriend from '../MainFriend/MainFriend';
+import FriendCount from '../FriendCount/FriendCount';
 
 
 const FindFriend = () => {
@@ -27,9 +25,6 @@ const FindFriend = () => {
             <div className="friend_info">
                 
                 <div>
-                    <MainFriend newUser={newUser}></MainFriend>
-                </div>
-                <div>
                     {
                         user.map( users => <Friends users={users}
                         handleUser={handleUser}></Friends>)
@@ -39,7 +34,7 @@ const FindFriend = () => {
             </div>
 
             <div className="friend_count">
-                <h2>Friend Count Here</h2>
+                <FriendCount newUser={newUser}></FriendCount>
             </div>
             
         </div>

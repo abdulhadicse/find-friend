@@ -9,6 +9,10 @@ function App() {
       <header className="App-header">
        <Navbar></Navbar>
        <FindFriend></FindFriend>
+
+       <footer>
+        <small>© Find Friend- Programming Hero. Editor: A Hadi</small>
+       </footer>
       </header>
     </div>
   );

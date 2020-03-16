@@ -24,7 +24,7 @@ const Friends = (props) => {
                 </div>
 
                 <div className="viewDetails">
-                    <p onClick= {()=>props.handleUser(props.users)}>View Details</p>
+                    <p onClick= {()=>props.handleUser(props.users)}>+Add Lists</p>
                 </div>
 
             </div>
