@@ -1,0 +1,30 @@
+.logo_main img{
+    width: 40px;
+    height: 40px;
+    padding: 15px 20px ;
+}
+
+.header_section{
+    display: flex;
+    overflow: hidden;
+    background-color: #333645;
+}
+.nav_bar nav{
+    margin-top: 26px;
+    margin-left: 40px;
+}
+.nav_bar nav a{
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav_bar nav a:hover{
+    background-color: #00ABF6;
+    border-radius: 5px;
+}
+
+.little h2{
+    color: goldenrod;
+}

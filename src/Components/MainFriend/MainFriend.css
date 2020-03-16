@@ -1,0 +1,48 @@
+
+.selectedFriend{
+    background-color:  #EBF6FA;
+    display: flex;
+    box-shadow: 5px 5px #d7edf5;
+    margin-bottom: 50px;
+}
+
+.friend_img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #d7edf5;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.friend_details{
+    margin-left: 30px;
+}
+
+.friend_details .phone{
+    margin-left: 150px;
+}
+
+.friend_details .subs_area{
+    padding: 10px 10px;  
+    border: 2px solid #d7edf5;
+    margin-top: 10px;
+    background-color: #F6FEFF;
+    border-right: 0px solid #d7edf5;
+    font-weight: 500;
+    
+}
+
+.friend_details .subs_area1{
+    margin-left: 80px;
+}
+
+.friend_details .subs_area3{
+    padding: 10px 56px; 
+    border-right: 2px solid #d7edf5;
+    background-color: #10A3FF;
+    color: white;
+    
+}

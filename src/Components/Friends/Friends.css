@@ -1,0 +1,57 @@
+.all_friends{
+    display: flex;
+}
+
+.logo{
+    margin-right: 0px;
+    width: 10%;
+    padding: 10px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #cfd6d8;
+}
+
+.name{
+    margin-right: 20px;
+    width: 35%;
+    padding: 7px 3px;
+}
+
+.name h4{
+    margin: 5px;
+}
+.name p{
+    margin: 5px;
+}
+
+.role{
+    margin-right: 20px;
+    width: 25%;
+}
+
+.viewDetails{
+    text-align: right;
+    width: 20%;
+    padding-top: 15px; 
+}
+
+.viewDetails p{
+    border: 3px solid rgb(224, 223, 223);
+    text-align: center;
+    padding: 5px;
+    background-color: #10A3FF;
+    color: white ;
+    cursor: pointer;
+   
+}
+
+.all_friends{
+    background-color: #EFEFEF;
+    box-shadow: 3px 3px 2px #d7edf5;
+    margin-bottom: 20px;
+}
